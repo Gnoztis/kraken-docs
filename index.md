@@ -1,6 +1,6 @@
 ---
 title: kraken-docs
-nav: index page1 page2
+nav: index about
 toc: true
 ---
 Docs: Kraken Stress Testing Toolkit
