@@ -16,6 +16,17 @@ theme: jekyll-theme-architect
 
 #########
 markdown: kramdown
+
+
+collections:
+  episodes:
+    output: true
+  seasons:
+    output: true
+  characters:
+    output: true
+
+
 defaults:
   - scope:
       path: ""
