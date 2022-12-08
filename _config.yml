@@ -39,4 +39,7 @@ toc:
   item_prefix: toc-
   permalink: true
 
+include: 
+  - nav.md
+
 exclude: ["README.md"]
