@@ -1,6 +1,5 @@
 plugins:
   - jekyll-relative-links
-  - search
   - jekyll-sitemap
   - jekyll-seo-tag
 relative_links:
