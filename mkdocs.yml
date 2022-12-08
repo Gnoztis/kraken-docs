@@ -1,0 +1,19 @@
+site_name: Kraken Docs
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
