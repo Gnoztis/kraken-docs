@@ -1,1 +1,6 @@
-Test
+---
+title: test
+toc: true
+---
+
+test
