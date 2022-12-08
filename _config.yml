@@ -14,9 +14,9 @@ relative_links:
   enabled: true
   collections: true
 
-#theme: jekyll-theme-architect
+theme: jekyll-theme-architect
 #theme: jekyll-theme-time-machine
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 #########
 relative_links:
   enabled: true
