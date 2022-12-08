@@ -44,7 +44,8 @@ defaults:
     values:
       layout: "season"
 
-
+gems:
+  - octopress-paginate
 ########
 
 sass:
