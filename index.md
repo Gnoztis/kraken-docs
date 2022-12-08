@@ -4,5 +4,3 @@ toc: true
 ---
 Docs: Kraken Stress Testing Toolkit
 
-{{ content | toc }}
-
