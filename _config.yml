@@ -9,3 +9,8 @@ relative_links:
 theme: jekyll-theme-architect
 title: [title]
 description: [A short description of your site's purpose]
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
