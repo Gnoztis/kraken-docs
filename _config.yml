@@ -2,6 +2,7 @@
   - jekyll-relative-links
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-toc
 relative_links:
   enabled: true
   collections: true
