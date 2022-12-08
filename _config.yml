@@ -18,37 +18,11 @@ relative_links:
 #theme: jekyll-theme-time-machine
 theme: jekyll-theme-slate
 #########
-markdown: kramdown
-
-
-collections:
-  episodes:
-    output: true
-  seasons:
-    output: true
-  characters:
-    output: true
-
-
-defaults:
-  - scope:
-      path: ""
-      type: "episodes"
-    values:
-      layout: "episode"
-  - scope:
-      path: ""
-      type: "characters"
-    values:
-      layout: "character"
-  - scope:
-      path: ""
-      type: "seasons"
-    values:
-      layout: "season"
-
-gems:
-  - octopress-paginate
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
 ########
 
 sass:
@@ -79,4 +53,4 @@ toc:
   permalink: true
 
 
-exclude: ["README.md"]
+№exclude: ["README.md"]
