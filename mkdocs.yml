@@ -19,7 +19,8 @@ theme:
         name: Switch to light mode
 
 
-
+repo_name: Gnoztis/kraken-docs
+repo_url: https://github.com/Gnoztis/kraken-docs
 markdown_extensions:
   - toc:
       permalink: true
