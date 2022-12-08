@@ -15,7 +15,7 @@ relative_links:
   collections: true
 
 #theme: jekyll-theme-architect
-
+theme: jekyll-theme-time-machine
 #########
 markdown: kramdown
 
