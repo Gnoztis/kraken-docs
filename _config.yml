@@ -5,9 +5,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-include:
-  - README.md
 
 theme: jekyll-theme-architect
-title: [The title of your site]
+title: [title]
 description: [A short description of your site's purpose]
