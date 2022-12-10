@@ -8,15 +8,12 @@ plugins:
   - jekyll-relative-links
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-toc
 
 relative_links:
   enabled: true
   collections: true
 
 theme: jekyll-theme-architect
-#theme: jekyll-theme-time-machine
-#theme: jekyll-theme-slate
 #########
 relative_links:
   enabled: true
@@ -25,32 +22,15 @@ include:
   - README.md
 ########
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" 
+
+
 
 permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-toc:
-  min_level: 1
-  max_level: 6
-  ordered_list: false
-  no_toc_section_class: no_toc_section
-  list_id: toc
-  list_class: section-nav
-  sublist_class: ''
-  item_class: toc-entry
-  item_prefix: toc-
-  permalink: true
 
 
-№exclude: ["README.md"]
+exclude: ["README.md"]

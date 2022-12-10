@@ -1,6 +1,7 @@
 ﻿---
 title: Kraken Stress Testing Toolkit
-toc: true
+layout: default
+nav_order: 1
 ---
 Docs: Kraken Stress Testing Toolkit
 
