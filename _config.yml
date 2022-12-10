@@ -8,12 +8,14 @@ plugins:
   - jekyll-relative-links
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 relative_links:
   enabled: true
   collections: true
 
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
+remote_theme: pages-themes/architect@v0.2.0
 #########
 relative_links:
   enabled: true
